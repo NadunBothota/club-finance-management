@@ -3,7 +3,7 @@
 /**
  * @fileOverview 
  *
- * - prioritizeExpenses - A function that handles the expense prioritization process.
+ * 
  * - PrioritizeExpensesInput - The input type for the prioritizeExpenses function.
  * - PrioritizeExpensesOutput - The return type for the prioritizeExpenses function.
  */
@@ -68,5 +68,6 @@ const prioritizeExpensesFlow = ai.defineFlow(
     return output!;
   }
 );
+
 
 
